@@ -17,7 +17,7 @@ class aemet {
     var $tiempo;
 
     function __construct() {
-        $this->api_key = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmZXJAdGljbWVkaWEuZXMiLCJqdGkiOiI4NzNjZWE5OC1lOGNiLTQ5YWItYmNiMi1iNjI0YzE5NDg4MDIiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTUwOTM5OTAxMSwidXNlcklkIjoiODczY2VhOTgtZThjYi00OWFiLWJjYjItYjYyNGMxOTQ4ODAyIiwicm9sZSI6IiJ9.n3y2xGVnQ8JDptKepQd0LOijP95zH54zauRQSpgV-Sw";
+        $this->api_key = "";
         $this->url = "https://opendata.aemet.es/opendata";
 
         $this->todas_estaciones = "/api/valores/climatologicos/inventarioestaciones/todasestaciones";
