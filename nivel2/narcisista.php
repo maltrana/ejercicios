@@ -5,7 +5,6 @@
   
  Los primeros números narcisistas son 1, 2, ....  8208 = 8^4+2^4+0^4+8^4
  
-
  */
 
 class narcisista {
@@ -17,7 +16,7 @@ class narcisista {
 
 
     function es_narcisista($numero) {
-        return (true);
+        
     }
 
 }

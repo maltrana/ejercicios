@@ -17,7 +17,7 @@ class multiplicaTest extends PHPUnit_Framework_TestCase {
      * This method is called before a test is executed.
      */
     protected function setUp() {
-        $this->object = new multiplica(2, 2);
+        $this->object = new multiplica();
     }
 
     /**
@@ -39,8 +39,6 @@ class multiplicaTest extends PHPUnit_Framework_TestCase {
 
     public function test2x1() {
         $this->assertEquals( 2, $this->object->multiplica(2, 1));
-        $this->assertEquals( 4, $this->object->multiplica(2, 2));
-        $this->assertEquals( 40, $this->object->multiplica(8, 5));
     }
 
 }
